@@ -1,0 +1,32 @@
+# jiancarlofile
+
+print("=" * 51)
+print("        <^...--> LESSON IN PYTHON <--...^>       ")
+print("=" * 51)
+
+while True:
+    print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
+    print("     *..You choose lesson in Python..*    ")
+    print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
+    print("[A>      Python syntax                               ")
+    print("[B>      Python variables                            ")
+    print("[C>      Python numbers                              ")
+    print("[D>      Python operators                            ")
+    print("[E>      Python if-else                              ")
+    print("[F>      Python while loops and for loops            ")
+    choice = input("Enter your lesson (A-F):  ")
+
+    if choice == "A":
+        lesson = "python syntax"
+        print("writing directly in the Command Line")
+    elif choice == "B":
+        lesson = "Python variables"
+        print("containers for storing data values.")
+
+
+
+
+
+
+
+
